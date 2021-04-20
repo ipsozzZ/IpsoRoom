@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	listener, err := net.Listen("tcp", "localhost:8000")
+	listener, err := net.Listen("tcp", "localhost:8888")
 	if err != nil {
 		//log.Fatal()打印错误信息并调用os.Exit(1)，终止程序
 		log.Fatal(err)
